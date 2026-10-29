@@ -1,0 +1,19 @@
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Local environment
+.env
+.env.*.local
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+public_key*
+
+orbital_donuts_spec_v2.docx
