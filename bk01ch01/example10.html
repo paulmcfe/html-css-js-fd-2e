@@ -2,11 +2,14 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Displaying a Message to the User</title>
-        <script>
-            alert("Hello JavaScript World!");
-        </script>
+        <title>Where Do You Put the &lt;script&gt; Tag?</title>
     </head>
     <body>
+        <h1 id="page-header"></h1>
+        <script>
+            document
+                .getElementById('page-header')
+                .textContent = 'Hello JavaScript World!';
+        </script>
     </body>
 </html>

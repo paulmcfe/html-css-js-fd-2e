@@ -1,0 +1,1 @@
+document.getElementById('my-footer').textContent = `This page is Copyright ${new Date().getFullYear()}`;
